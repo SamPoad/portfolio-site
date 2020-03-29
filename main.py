@@ -16,9 +16,9 @@ def home():
 
 @app.route("/aboutme/")
 def about():
-    return render_template('aboutme.html')
+    return render_template('about.html')
 
-@app.route("/projects/")
+@app.route("/myprojects/")
 def projects():
     return render_template('projects.html')
 

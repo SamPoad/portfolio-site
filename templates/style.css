@@ -1,0 +1,71 @@
+/* CSS Stylesheet */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    color: #2d2f3b;
+  }
+
+p {
+  line-height: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+nav {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 5px 20px;
+  box-shadow: 0px 1px 2px gray;
+}
+
+nav p { /* the paragraph WITHIN the nav */
+  font-size: 20px;
+
+}
+
+.box{ /* selecting an element by its class name */ 
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 20px 40px;
+  background-color: aliceblue; /* maybe should just be background? */
+  max-width: 700px;
+  min-height: 300px;
+  box-shadow: 0px 1px 2px gray;
+}
+
+.avatar { /* selecting our images by class avatar */ 
+  width: 150px;
+  height: 150px;
+  margin: 0px 20px;
+  float: left; /* moves the image to the left side of the box */ 
+}
+
+.images {
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.images img { /* inside of the images container, target all images */ 
+  width: 150px;
+  height: 150px;
+  margin: 20px; /* put a margin on each image so they aren't touching each other */
+
+}
+
+.projects {
+  background-color: deepskyblue;
+}
+
+body {
+  background-color: #ecf0f4;
+}
